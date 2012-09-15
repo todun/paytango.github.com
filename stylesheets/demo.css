@@ -1,3 +1,9 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	background-image:url("../images/furley.png");
@@ -13,6 +19,8 @@ body {
 h1 {
 	font-size: 52px;
 	font-style: bold;
+
+	margin-bottom: 5px;
 }
 h2 {
 	margin-top: 5px;
@@ -22,10 +30,20 @@ h2 {
 	font-size: 72px;
 	text-align: right;
 	margin-top: 20px;
-	margin-right: 10px;
+	background-color: black;
+	color: white;
+	height: 150px;
+	line-height: 150px;
+}
+
+#total span{
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	padding-right: 10px;
 }
 
 img {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 90px;
+	margin-bottom: 20px;
 }

@@ -16,10 +16,10 @@ h1 {
 h2 {
 	font-size: 40px;
 }
-h3 {
+#total {
 	font-size: 72px;
 	text-align: right;
-	margin-top: 1000px;
+	margin-top: 200px;
 	margin-right: 10px;
 }
 

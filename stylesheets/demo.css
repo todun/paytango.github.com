@@ -12,18 +12,20 @@ body {
 }
 h1 {
 	font-size: 52px;
+	font-style: bold;
 }
 h2 {
+	margin-top: 5px;
 	font-size: 40px;
 }
 #total {
 	font-size: 72px;
 	text-align: right;
-	margin-top: 200px;
+	margin-top: 20px;
 	margin-right: 10px;
 }
 
 img {
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }

@@ -3,8 +3,8 @@ body{
 }
 
 #wrapper {
-  padding-top: 25px;
-  padding-bottom: 25px;
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
 	width: 350px;
 	margin: 30px auto;
 	background-color: #eee;

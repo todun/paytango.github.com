@@ -26,8 +26,8 @@ h1 {
 	color:#303030;
 	font-size: 40px;
 	font-weight: 900;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 h2 {
 	color:#303030;
@@ -64,6 +64,11 @@ img {
 #footer span{
 	font-size:20px;
 	weight: 400;
+}
+
+#team {
+  margin-top: 40px;
+  font-size: 20px;
 }
 
 /* punch

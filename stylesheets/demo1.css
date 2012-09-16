@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+  overflow:hidden;
 	font-family: 'Source Sans Pro', sans-serif;
 	background-image:url("../images/furley.png");
 	background-repeat:repeat;

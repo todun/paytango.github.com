@@ -119,6 +119,7 @@ h2 {
 
 li {
   display: block;
+  margin-top:30px;
 }
 
 ul {
@@ -128,7 +129,7 @@ ul {
 .smallcard {
   background-color: #da3838;
   width: 207px;
-  height: 110px;
+  height: 120px;
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -158,10 +159,12 @@ ul {
   margin-top: 5px;
   font-size: 15px;
   line-height: 30px;
+  margin-bottom:15px;
 }
 
 .smallcard .cardnumber span {
-  font-weight: 900;
+  font-weight: 400;
+  letter-spacing: 1px;
   margin-right: 7px;
   margin-left: 7px;
 }
@@ -169,13 +172,14 @@ ul {
 .smallcard .name {
   height: 20px;
   line-height: 20px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top:0;
 }
 
 .smallcard img {
-  height: 24px;
-  width: 33px;
+  height: 16px;
+  width: 22px;
 }
 
 #statement {
@@ -189,8 +193,6 @@ ul {
   color:#303030;
 }
 
-
-
 #diffcard {
   font-weight: 700;
   text-align: left;
@@ -198,6 +200,7 @@ ul {
   position:absolute;
   padding-left:20px;
   padding-bottom:20px;
+  margin-bottom:40px;
 }
 
 

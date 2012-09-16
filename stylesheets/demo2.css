@@ -50,10 +50,16 @@ h2 {
 	padding-right: 10px;
 }
 
-img {
+#enroll {
 	margin-top: 90px;
 	margin-bottom: 20px;
-	margin-left: 50px;
+	margin-left: 20px;
+	margin-right:90px;
+}
+
+#back {
+	float:left;
+	margin-left:10px;
 }
 
 /* punch

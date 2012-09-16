@@ -111,7 +111,7 @@ h2 {
   top:0px;
   left: 0px;
   position:absolute;
-  height:500px;
+  height:768px;
   overflow:scroll;
   padding-top:5px;
 }
@@ -185,17 +185,10 @@ ul {
   top: 300px;
   right: 10px;
   width:475px;
+  color:#303030;
 }
 
-#tot {
-  font-weight: 900;
-  text-align: left;
-  font-size: 40px;
-  position:absolute;
-  top: 300px;
-  right: 10px;
-  width:475px;
-}
+
 
 #diffcard {
   font-weight: 700;

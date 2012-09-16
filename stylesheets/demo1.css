@@ -11,6 +11,7 @@ body {
 
 #wrapper {
 	width: 800px;
+  position:relative;
 	margin: 0 auto;
 	text-align: center;
 
@@ -44,6 +45,10 @@ h2 {
 	padding-right: 10px;
 }
 
+#bigright {
+  width:480px;
+}
+
 .bigcard {
   background-color: #0e9fd7;
   width: 415px;
@@ -53,12 +58,13 @@ h2 {
   margin-bottom: 20px;
   text-align: left;
   padding: 30px;
-  
+  position: absolute;
+  right: 10px;
+  top: 0px;  
   color: white;
 }
 
 .bigcard .logo {
-  float: right;
   margin-bottom: 10px;
 }
 
@@ -94,6 +100,19 @@ h2 {
   font-weight: 600;
 }
 
+#smallcardgroup {
+  width: 277px;
+  top:20px;
+  left: 0px;
+  position:absolute;
+  height:500px;
+  overflow:scroll;
+}
+
+li {
+  display: block;  
+}
+
 .smallcard {
   background-color: #da3838;
   width: 207px;
@@ -103,7 +122,6 @@ h2 {
   margin-bottom: 20px;
   text-align: left;
   padding: 15px;
-  
   color: white;
 }
 
@@ -147,3 +165,51 @@ h2 {
   height: 24px;
   width: 33px;
 }
+
+#statement {
+  font-weight: 900;
+  text-align: left;
+  font-size: 40px;
+  position:absolute;
+  top: 300px;
+  right: 10px;
+  width:475px;
+}
+
+
+
+/* button
+*******************************************************************************/
+button.punch {
+  background: #4162a8;
+  border-top: 1px solid #38538c;
+  border-right: 1px solid #1f2d4d;
+  border-bottom: 1px solid #151e33;
+  border-left: 1px solid #1f2d4d;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #1e2d4d;
+  width: 150px;
+  -webkit-background-clip: padding-box; }
+  button.punch:hover {
+    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0px 20px 1px #76b347, 0px 1px 0 #5e9e2e, 0 6px 0px #76b347, 0 8px 4px 1px #111111;
+    cursor: pointer; }
+  button.punch:active {
+    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111; }
+
+
+

@@ -1,6 +1,6 @@
 html, body {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
@@ -60,7 +60,7 @@ h2 {
   padding: 30px;
   position: absolute;
   right: 10px;
-  top: 0px;  
+  top: 20px;  
   color: white;
 }
 
@@ -101,16 +101,23 @@ h2 {
 }
 
 #smallcardgroup {
+  background-image:url("../images/solid.png");
+  background-repeat: repeat;
   width: 277px;
-  top:20px;
+  top:0px;
   left: 0px;
   position:absolute;
   height:500px;
   overflow:scroll;
+  padding-top:5px;
 }
 
 li {
-  display: block;  
+  display: block;
+}
+
+ul {
+  padding:0px;
 }
 
 .smallcard {

@@ -48,12 +48,13 @@ img {
   margin-top: 15px;
 }
 
-#team b, #awards b{
+#team span, #awards span{
   width: 100px;
   float: left;
   height: 4em;
   margin-right: 10px;
   text-align: right;
+  font-weight: 900;
 }
 
 #awards b{
